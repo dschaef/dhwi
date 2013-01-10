@@ -13,45 +13,56 @@
  */
 
 html {
-	background-color: #eee;
+	
 	border-top: 10px solid #333;
+	background-image: url(library.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
 	font-family: Verdana, sans-serif;
 	width: 70%;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #FFFFF5;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
 }
 
+body h1 {
+	font-size: 24px;
+}
+
 header {
-	background-color: #333338;
-	color: #fff;
+	background-color: #FFFFF5;
+	color: #A64D4D;
 	padding: 20px;
-	border-bottom: 5px solid #777
+	border-bottom: 5px solid #777;
+	
 }
 
 header h1 {
-	font-size: 32px;
+	font-size: 40px;
+	color: #743636;
 }
 
 nav ul {
 	list-style:none;
 	margin-left:0;
 	padding-left:0;
+
 }
 
 nav li {
 	display:inline;
+	padding-right: 10px;
 }
 
-header a:link {color: #fff;}
-header a:visited {color: #fff;}
-header a:hover {color: #fff;}
-header a:focus {color: #fff;}
-header a:active {color: #fff;}
+header a:link {color: #A64D4D;}
+header a:visited {color: #A64D4D;}
+header a:hover {color: #A64D4D;}
+header a:focus {color: #A64D4D;}
+header a:active {color: #A64D4D;}
 
 table {
 	width: 100%;
@@ -68,14 +79,18 @@ td {
 }
 
 tbody tr {
-	background-color: #eee;
+	background-color: #F0E8E0;
 }
 
 tbody tr:nth-child(even) {
-	background-color: #aaa;
+	background-color: #EBE0D6;
 }
 
-
+a:link { color: #CA9494;}
+a:visited { color: #A64D4D;}
+a:hover { color: #A64D4D;}
+a:focus { color: #A64D4D;}
+a:active { color: #A64D4D;}
 
 
 
