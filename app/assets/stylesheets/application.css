@@ -31,7 +31,7 @@ body {
 }
 
 body h1 {
-	font-size: 24px;
+	font-size: 16px;
 }
 
 header {
@@ -48,14 +48,16 @@ header h1 {
 	color: #743636;
 }
 
-nav ul {
+nav ul,
+footer ul {
 	list-style:none;
 	margin-left:0;
 	padding-left:0;
 
 }
 
-nav li {
+nav li,
+footer li {
 	display:inline;
 	padding-right: 10px;
 }
@@ -94,6 +96,9 @@ a:hover { color: #CA9494;}
 a:focus { color: #CA9494;}
 a:active { color: #CA9494;}
 
+footer {
+	text-align: center;
+}
 
 
 
