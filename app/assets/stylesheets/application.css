@@ -14,9 +14,11 @@
 
 html {
 	background-color: #eee;
+	border-top: 10px solid #333;
 }
 
 body {
+	font-family: Verdana, sans-serif;
 	width: 70%;
 	margin: 0 auto;
 	background-color: #fff;
@@ -28,6 +30,11 @@ header {
 	background-color: #333338;
 	color: #fff;
 	padding: 20px;
+	border-bottom: 5px solid #777
+}
+
+header h1 {
+	font-size: 32px;
 }
 
 nav ul {
@@ -45,4 +52,33 @@ header a:visited {color: #fff;}
 header a:hover {color: #fff;}
 header a:focus {color: #fff;}
 header a:active {color: #fff;}
+
+table {
+	width: 100%;
+}
+
+thead th {
+	border-bottom: 2px solid #ccc;
+	text-align:left; 
+}
+
+th,
+td {
+	padding: 5px 0;
+}
+
+tbody tr {
+	background-color: #eee;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #aaa;
+}
+
+
+
+
+
+
+
 
