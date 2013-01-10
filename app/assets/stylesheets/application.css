@@ -24,6 +24,7 @@ body {
 	font-family: Verdana, sans-serif;
 	width: 70%;
 	margin: 0 auto;
+
 	background-color: #FFFFF5;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
@@ -37,6 +38,7 @@ header {
 	background-color: #FFFFF5;
 	color: #A64D4D;
 	padding: 20px;
+	text-align: center;
 	border-bottom: 5px solid #777;
 	
 }
@@ -87,10 +89,10 @@ tbody tr:nth-child(even) {
 }
 
 a:link { color: #CA9494;}
-a:visited { color: #A64D4D;}
-a:hover { color: #A64D4D;}
-a:focus { color: #A64D4D;}
-a:active { color: #A64D4D;}
+a:visited { color: #CA9494;}
+a:hover { color: #CA9494;}
+a:focus { color: #CA9494;}
+a:active { color: #CA9494;}
 
 
 
