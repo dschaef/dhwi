@@ -14,10 +14,8 @@
 
 html {
 	
-	border-top: 10px solid #333;
-	background-image: url(library.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	border-top: 30px solid #333;
+
 }
 
 body {
@@ -28,6 +26,8 @@ body {
 	background-color: #FFFFF5;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
+	border-radius: 0.5em;
+	opacity: 0.75;
 }
 
 body h1 {
@@ -36,16 +36,22 @@ body h1 {
 
 header {
 	background-color: #FFFFF5;
-	color: #A64D4D;
+	color: #777;
 	padding: 20px;
 	text-align: center;
 	border-bottom: 5px solid #777;
 	
+	background-image: url(library.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+
 
 header h1 {
 	font-size: 40px;
-	color: #743636;
+	color: DarkRed;
+	
 }
 
 nav ul,
@@ -53,20 +59,20 @@ footer ul {
 	list-style:none;
 	margin-left:0;
 	padding-left:0;
-
+	color: black;
 }
 
-nav li,
-footer li {
+nav li {
 	display:inline;
 	padding-right: 10px;
+	color: black;
 }
 
-header a:link {color: #A64D4D;}
-header a:visited {color: #A64D4D;}
-header a:hover {color: #A64D4D;}
-header a:focus {color: #A64D4D;}
-header a:active {color: #A64D4D;}
+header a:link {color: black;}
+header a:visited {color: black;}
+header a:hover {color: black;}
+header a:focus {color: black;}
+header a:active {color: black;}
 
 table {
 	width: 100%;
@@ -90,7 +96,8 @@ tbody tr:nth-child(even) {
 	background-color: #EBE0D6;
 }
 
-a:link { color: #CA9494;}
+a:link { color: #CA9494;
+	text-decoration: none;}
 a:visited { color: #CA9494;}
 a:hover { color: #CA9494;}
 a:focus { color: #CA9494;}
@@ -98,6 +105,8 @@ a:active { color: #CA9494;}
 
 footer {
 	text-align: center;
+	font-size: 12px;
+	color: black;
 }
 
 
