@@ -36,7 +36,11 @@ body h1 {
 
 header {
 	background-color: #FFFFF5;
+
 	color: #777;
+
+	color: #B22222;
+
 	padding: 20px;
 	text-align: center;
 	border-bottom: 5px solid #777;
@@ -50,8 +54,12 @@ header {
 
 header h1 {
 	font-size: 40px;
+
 	color: DarkRed;
 	
+
+	color: #B22222;
+
 }
 
 nav ul,
